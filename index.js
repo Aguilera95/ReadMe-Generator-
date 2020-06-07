@@ -1,4 +1,9 @@
 var inquirer = require("inquirer");
+var api = require("./utils/api");
+var genMarkDown = require ("./utils/generateMarkdown");
+var fs = require("fs");
+var path = require("path");
+
 const questions = [ 
     {
         type: "input",

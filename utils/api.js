@@ -1,6 +1,6 @@
 const axios = require("axios");
 // Configure Return
-require("dotenv").config();
+// require("dotenv").config();
 
 // Setting variable to Axios Request
 const api = {
@@ -9,7 +9,7 @@ const api = {
         // Axios API Request
         return axios
         // Get JSON Object from API
-            .get(`https://api.github.com/users/${username}?client_id=${process.env.CLIENT_ID}&client_secret=${process.env.CLIENT_SECRET}`)
+            .get(`https://api.github.com/users/${username}`)
             .catch(error => {
                 console.log("User Not Found, Exiting.");
                 // Exiting index.js
