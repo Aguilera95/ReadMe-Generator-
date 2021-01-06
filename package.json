@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/Aguilera95/ReadMe-Generator-#readme",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "inquirer": "^7.1.0",
     "require": "^2.4.20"
   },
